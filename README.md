@@ -104,25 +104,25 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ### Data / Analytics / ML
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/pandas/150458" height="50" alt="Pandas" />
-  <img src="https://cdn.simpleicons.org/numpy/013243" height="50" alt="NumPy" />
+  <img src="https://cdn.simpleicons.org/pandas/150458" height="50" width="50" alt="Pandas" />
+  <img src="https://cdn.simpleicons.org/numpy/013243" height="50" width="50" alt="NumPy" />
   <img src="https://api.iconify.design/logos:matplotlib.svg" width="110" alt="Matplotlib" />
-  <img src="https://api.iconify.design/logos:seaborn-icon.svg" width="82" alt="Seaborn" />
-  <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" height="50" width="60" alt="Power BI" />
-  <img src="https://api.iconify.design/logos:tableau.svg" width="110" alt="Tableau" />
-  <img src="https://cdn.simpleicons.org/looker/4285F4" height="50" alt="Looker Studio" />
-  <img src="https://api.iconify.design/vscode-icons:file-type-excel.svg" width="52" alt="Excel" />
-  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="45" alt="Google Sheets" />
+  <img src="https://api.iconify.design/logos:seaborn-icon.svg" height="50" width="50" alt="Seaborn" />
+  <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" height="50" width="50" alt="Power BI" />
+  <img src="https://api.iconify.design/logos:tableau.svg" height="80" width="120" alt="Tableau" />
+  <img src="https://cdn.simpleicons.org/looker/4285F4" height="50" width="50" alt="Looker Studio" />
+  <img src="https://api.iconify.design/vscode-icons:file-type-excel.svg" height="50" width="50" alt="Excel" />
+  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="50" width="50" alt="Google Sheets" />
 </div>
 
 ### Tools & Platforms
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/git/F05032" height="50" alt="Git" />
-  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="50" alt="GitHub" />
-  <img src="https://api.iconify.design/logos:visual-studio-code.svg" width="52" alt="VS Code" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" alt="Jupyter" />
-  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="50" alt="Google Cloud" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="50" width="50" alt="Git" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="50" width="50" alt="GitHub" />
+  <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="50" width="50" alt="VS Code" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" width="50" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4"height="50" width="50" alt="Google Cloud" />
 </div>
 
 </div>
