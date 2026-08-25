@@ -29,12 +29,12 @@
 │                                                              │
 │  SaptajitSaha                                                │
 │  ──────────────────────────────────────────────────────────  │
-│  ROLE       → 2nd Year @ IIT Madras                          │
-│  DEGREE     → BS in Data Science & Applications              │
-│  TARGET     → Data Scientist / ML Engineer                   │
-│  INTERESTS  → Data Science • AI/ML                           │
-│  BUILDING   → Useful products, not just demos                │
-│  OFFLINE    → Vibecoding • Running • Powerlifting            │
+│  ROLE       → 2nd Year @ IIT Madras                         │
+│  DEGREE     → BS in Data Science & Applications             │
+│  TARGET     → Data Scientist / ML Engineer                  │
+│  INTERESTS  → Data Science • AI/ML                          │
+│  BUILDING   → Useful products, not just demos               │
+│  OFFLINE    → Vibecoding • Running • Powerlifting           │
 │                                                              │
 │  status: learning                                            │
 │  mode:   building                                            │
@@ -42,14 +42,6 @@
 ```
 
 > I like turning messy ideas into things people can actually use. Right now, I'm sharpening my foundations in data, statistics, programming and machine learning while building products along the way.
-
-### `focus.exe`
-
-<div align="center">
-  <img src="assets/focus-bars-orange.gif" alt="Animated gaming-style focus bars" width="760" />
-</div>
-
-> The bars are intentionally a vibe, not a fake skill-ranking system.
 
 ---
 
@@ -106,15 +98,29 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Languages & Data
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
+</p>
 
 ### Data / Analytics / ML
 
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib&theme=dark" alt="Data tools" />
+<p>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111111" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
+  <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Looker Studio" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets" />
+</p>
 
 ### Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,googlecloud&theme=dark" alt="Tools" />
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,googlecloud&theme=dark" alt="Tools" />
+</p>
 
 </div>
 
