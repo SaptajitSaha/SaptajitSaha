@@ -76,9 +76,9 @@
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React TypeScript Vite Express" />
-  <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="42" alt="Gemini" />
-  <img src="https://cdn.simpleicons.org/leaflet/199900" height="42" alt="Leaflet" />
-  <img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" height="42" alt="OpenStreetMap" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google-gemini.svg" height="42" alt="Gemini" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/leaflet.svg" height="42" alt="Leaflet" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openstreetmap.svg" height="42" alt="OpenStreetMap" />
 </div>
 
 </div>
@@ -100,25 +100,25 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ### Data / Analytics / ML
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/pandas/150458" height="48" alt="Pandas" />
-  <img src="https://cdn.simpleicons.org/numpy/013243" height="48" alt="NumPy" />
-  <img src="https://cdn.simpleicons.org/matplotlib/11557C" height="48" alt="Matplotlib" />
-  <img src="https://cdn.simpleicons.org/seaborn/43A19A" height="48" alt="Seaborn" />
-  <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="48" alt="Power BI" />
-  <img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
-  <img src="https://cdn.simpleicons.org/looker/4285F4" height="48" alt="Looker Studio" />
-  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" height="48" alt="Excel" />
-  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" alt="Google Sheets" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg" height="48" alt="Pandas" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/numpy.svg" height="48" alt="NumPy" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/matplotlib.svg" height="48" alt="Matplotlib" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/seaborn.svg" height="48" alt="Seaborn" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/powerbi.svg" height="48" alt="Power BI" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tableau.svg" height="48" alt="Tableau" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/looker.svg" height="48" alt="Looker Studio" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/microsoftexcel.svg" height="48" alt="Excel" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlesheets.svg" height="48" alt="Google Sheets" />
 </div>
 
 ### Tools & Platforms
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/git/F05032" height="48" alt="Git" />
-  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="48" alt="GitHub" />
-  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="48" alt="VS Code" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="48" alt="Jupyter" />
-  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="48" alt="Google Cloud" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg" height="48" alt="Git" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" height="48" alt="GitHub" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/visualstudiocode.svg" height="48" alt="VS Code" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jupyter.svg" height="48" alt="Jupyter" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlecloud.svg" height="48" alt="Google Cloud" />
 </div>
 
 </div>
