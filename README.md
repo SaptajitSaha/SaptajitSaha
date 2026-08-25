@@ -122,7 +122,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
   <img src="https://cdn.simpleicons.org/github/FFFFFF" height="50" width="50" alt="GitHub" />
   <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="50" width="50" alt="VS Code" />
   <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" width="50" alt="Jupyter" />
-  <img src="https://cdn.simpleicons.org/googlecloud/4285F4"height="50" width="50" alt="Google Cloud" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="50" width="50" alt="Google Cloud" />
 </div>
 
 </div>
@@ -160,7 +160,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 <div align="center">
 
 <a href="https://open.spotify.com/user/31woaxwhxdzembeh5htuahpqz4x4">
-  <img src="https://img.shields.io/badge/Spotify-Currently%20vibing-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Open Spotify profile" />
+  <img src="assets/spotify-now-playing.svg" alt="Spotify now playing" width="720" />
 </a>
 
 </div>
@@ -205,7 +205,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 <a href="https://leetcode.com/u/Saptajit_Saha/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
 <a href="https://codeforces.com/profile/sahasaptajit"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
 <a href="https://instagram.com/saptajit.py/"><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://medium.com/@sahasaptajit"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
+<a href="https://medium.com/@sahasaptit"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
 <a href="https://dev.to/saptajitsaha"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" /></a>
 <a href="https://discord.com/users/fricko_yt"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
 
