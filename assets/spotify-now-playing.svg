@@ -1,52 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-width="720" height="190" viewBox="0 0 720 190">
-
-<rect width="720" height="190" rx="18" fill="#0d0d0d"/>
-<rect x="1" y="1" width="718" height="188" rx="17"
-fill="none" stroke="#1DB954" stroke-opacity="0.55"/>
-
-<text x="24" y="34"
-fill="#1DB954"
-font-family="monospace"
-font-size="14">♫ NOW PLAYING</text>
-
-<text x="24" y="78"
-fill="#ffffff"
-font-family="sans-serif"
-font-size="24"
-font-weight="700">(When You Gonna) Give It Up to Me - Radio Version</text>
-
-<text x="24" y="108"
-fill="#b8b8b8"
-font-family="sans-serif"
-font-size="16">Sean Paul, Keyshia Cole</text>
-
-<text x="24" y="134"
-fill="#666666"
-font-family="sans-serif"
-font-size="13">(When You Gonna) Give It Up to Me</text>
-
-<rect x="24" y="151" width="470" height="5" rx="2.5"
-fill="#2a2a2a"/>
-
-<rect x="24" y="151"
-width="420.4689344262295"
-height="5" rx="2.5" fill="#1DB954"/>
-
-<text x="24" y="177"
-fill="#777777"
-font-family="monospace"
-font-size="11">3:38 / 4:04</text>
-
-<a href="spotify:track:5nEdwtSv0qqeE0l4o1lR4q">
-<rect x="560" y="142" width="132" height="30" rx="15"
-fill="#1DB954"/>
-<text x="626" y="162"
-text-anchor="middle"
-fill="#071b0c"
-font-family="sans-serif"
-font-size="12"
-font-weight="700">OPEN SPOTIFY</text>
-</a>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120">
+    <rect width="720" height="120" rx="18" fill="#0d0d0d"/>
+    <rect x="1" y="1" width="718" height="118" rx="17" fill="none" stroke="#1DB954" stroke-opacity="0.55"/>
+    <text x="24" y="42" fill="#1DB954" font-family="monospace" font-size="14">♫ CURRENTLY VIBING</text>
+    <text x="24" y="78" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="700">Connect Spotify to show Now Playing</text>
+    <text x="24" y="100" fill="#888888" font-family="sans-serif" font-size="12">Configure the GitHub Actions Spotify secrets to enable live track data.</text>
+    </svg>
