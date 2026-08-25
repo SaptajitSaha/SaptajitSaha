@@ -109,7 +109,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
   <img src="https://api.iconify.design/logos:matplotlib.svg" width="110" alt="Matplotlib" />
   <img src="https://api.iconify.design/logos:seaborn-icon.svg" height="50" width="50" alt="Seaborn" />
   <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" height="50" width="50" alt="Power BI" />
-  <img src="https://api.iconify.design/logos:tableau.svg" height="80" width="120" alt="Tableau" />
+  <img src="https://api.iconify.design/logos:tableau.svg" height="40" width="150" alt="Tableau" />
   <img src="https://cdn.simpleicons.org/looker/4285F4" height="50" width="50" alt="Looker Studio" />
   <img src="https://api.iconify.design/vscode-icons:file-type-excel.svg" height="50" width="50" alt="Excel" />
   <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="50" width="50" alt="Google Sheets" />
