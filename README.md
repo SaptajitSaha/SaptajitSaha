@@ -23,7 +23,6 @@
 
 ## `> whoami`
 
-<div align="center">
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │ $ whoami                                                     │
@@ -41,7 +40,6 @@
 │  mode:   building                                            │
 └──────────────────────────────────────────────────────────────┘
 ```
-<div>
   
 > I like turning messy ideas into things people can actually use. Right now, I'm sharpening my foundations in data, statistics, programming and machine learning while building products along the way.
 
