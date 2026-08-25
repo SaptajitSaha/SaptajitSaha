@@ -1,0 +1,97 @@
+name: Update Spotify Now Playing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  spotify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update Spotify card
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os, base64, json, urllib.parse, urllib.request
+          from pathlib import Path
+
+          cid = os.environ.get("SPOTIFY_CLIENT_ID")
+          secret = os.environ.get("SPOTIFY_CLIENT_SECRET")
+          refresh = os.environ.get("SPOTIFY_REFRESH_TOKEN")
+          if not all((cid, secret, refresh)):
+              raise SystemExit("Missing Spotify secrets")
+
+          token = base64.b64encode(f"{cid}:{secret}".encode()).decode()
+          req = urllib.request.Request(
+              "https://accounts.spotify.com/api/token",
+              data=urllib.parse.urlencode({
+                  "grant_type": "refresh_token",
+                  "refresh_token": refresh,
+              }).encode(),
+              headers={"Authorization": f"Basic {token}"},
+          )
+          with urllib.request.urlopen(req) as r:
+              access = json.load(r)["access_token"]
+
+          req = urllib.request.Request(
+              "https://api.spotify.com/v1/me/player",
+              headers={"Authorization": f"Bearer {access}"},
+          )
+          try:
+              with urllib.request.urlopen(req) as r:
+                  data = json.load(r)
+          except Exception:
+              data = None
+
+          def esc(s):
+              return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+          if data and data.get("item"):
+              item = data["item"]
+              title = esc(item.get("name"))
+              artist = esc(", ".join(a["name"] for a in item.get("artists", [])))
+              album = esc(item.get("album", {}).get("name"))
+              playing = bool(data.get("is_playing"))
+              status = "NOW PLAYING" if playing else "PAUSED"
+              image = item.get("album", {}).get("images", [{}])[0].get("url", "")
+              svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="190" viewBox="0 0 720 190">
+              <rect width="720" height="190" rx="18" fill="#0d0d0d"/>
+              <rect x="1" y="1" width="718" height="188" rx="17" fill="none" stroke="#1DB954" stroke-opacity="0.55"/>
+              <text x="24" y="34" fill="#1DB954" font-family="monospace" font-size="14">♫ {status}</text>
+              <text x="24" y="78" fill="#ffffff" font-family="sans-serif" font-weight="700" font-size="24">{title}</text>
+              <text x="24" y="108" fill="#b8b8b8" font-family="sans-serif" font-size="16">{artist}</text>
+              <text x="24" y="134" fill="#666666" font-family="sans-serif" font-size="13">{album}</text>
+              <text x="24" y="164" fill="#1DB954" font-family="monospace" font-size="12">Spotify • live status</text>
+              <a href="https://open.spotify.com/">
+                <rect x="560" y="142" width="132" height="30" rx="15" fill="#1DB954"/>
+                <text x="626" y="162" text-anchor="middle" fill="#071b0c" font-family="sans-serif" font-size="12" font-weight="700">OPEN SPOTIFY</text>
+              </a>
+              </svg>'''
+          else:
+              svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120">
+              <rect width="720" height="120" rx="18" fill="#0d0d0d"/>
+              <rect x="1" y="1" width="718" height="118" rx="17" fill="none" stroke="#1DB954" stroke-opacity="0.55"/>
+              <text x="24" y="42" fill="#1DB954" font-family="monospace" font-size="14">♫ CURRENTLY VIBING</text>
+              <text x="24" y="78" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="700">Nothing playing right now</text>
+              </svg>'''
+
+          Path("assets/spotify-now-playing.svg").write_text(svg, encoding="utf-8")
+          PY
+
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/spotify-now-playing.svg
+          git diff --cached --quiet || git commit -m "feat: update spotify now playing card"
+          git push
