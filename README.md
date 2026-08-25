@@ -23,6 +23,7 @@
 
 ## `> whoami`
 
+<div align="center">
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │ $ whoami                                                     │
@@ -40,7 +41,8 @@
 │  mode:   building                                            │
 └──────────────────────────────────────────────────────────────┘
 ```
-
+<div>
+  
 > I like turning messy ideas into things people can actually use. Right now, I'm sharpening my foundations in data, statistics, programming and machine learning while building products along the way.
 
 ---
@@ -124,8 +126,6 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 </div>
 
 <br />
-
-**Working with:** Python, SQL, C/C++, JavaScript, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Looker Studio, Excel, Google Sheets, Git/GitHub, Jupyter, VS Code and Google Cloud.
 
 ---
 
