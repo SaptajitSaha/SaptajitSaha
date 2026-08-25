@@ -76,9 +76,9 @@
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React TypeScript Vite Express" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google-gemini.svg" height="42" alt="Gemini" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/leaflet.svg" height="42" alt="Leaflet" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openstreetmap.svg" height="42" alt="OpenStreetMap" />
+  <img src="https://skillicons.dev/icons?i=googlecloud&theme=dark" height="50" alt="Gemini and Google Cloud" />
+  <img src="https://cdn.simpleicons.org/leaflet/199900" height="42" alt="Leaflet" />
+  <img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" height="42" alt="OpenStreetMap" />
 </div>
 
 </div>
@@ -99,27 +99,11 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Data / Analytics / ML
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg" height="48" alt="Pandas" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/numpy.svg" height="48" alt="NumPy" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/matplotlib.svg" height="48" alt="Matplotlib" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/seaborn.svg" height="48" alt="Seaborn" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/powerbi.svg" height="48" alt="Power BI" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tableau.svg" height="48" alt="Tableau" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/looker.svg" height="48" alt="Looker Studio" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/microsoftexcel.svg" height="48" alt="Excel" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlesheets.svg" height="48" alt="Google Sheets" />
-</div>
+<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,powerbi,tableau,looker,excel,googlesheets&theme=dark" alt="Data analytics and ML tools" />
 
 ### Tools & Platforms
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg" height="48" alt="Git" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" height="48" alt="GitHub" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/visualstudiocode.svg" height="48" alt="VS Code" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jupyter.svg" height="48" alt="Jupyter" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlecloud.svg" height="48" alt="Google Cloud" />
-</div>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />
 
 </div>
 
