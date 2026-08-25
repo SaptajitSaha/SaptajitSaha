@@ -29,15 +29,15 @@
 │                                                              │
 │  SaptajitSaha                                                │
 │  ──────────────────────────────────────────────────────────  │
-│  ROLE       → 2nd Year @ IIT Madras                         │
-│  DEGREE     → BS in Data Science & Applications             │
-│  TARGET     → Data Scientist / ML Engineer                  │
-│  INTERESTS  → Data Science • AI/ML • Quant Finance          │
-│  BUILDING   → Useful products, not just demos               │
-│  OFFLINE    → Vibecoding • Running • Powerlifting           │
+│  ROLE       → 2nd Year @ IIT Madras                          │
+│  DEGREE     → BS in Data Science & Applications              │
+│  TARGET     → Data Scientist / ML Engineer                   │
+│  INTERESTS  → Data Science • AI/ML • Quant Finance           │
+│  BUILDING   → Useful products, not just demos                │
+│  OFFLINE    → Vibecoding • Running • Powerlifting            │
 │                                                              │
-│  status: learning                                           │
-│  mode:   building                                           │
+│  status: learning                                            │
+│  mode:   building                                            │
 └──────────────────────────────────────────────────────────────┘
 ```
 
