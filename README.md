@@ -5,10 +5,10 @@
 ### `Data Scientist / ML Engineer in the making`
 
 <p>
-  <a href="https://saptajitsaha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/saptajitsaha/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/Saptajit_Saha_"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-  <a href="mailto:sahasaptajit@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://saptajitsaha.vercel.app/"><img src="https://cdn.simpleicons.org/vercel/FFFFFF" height="38" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/saptajitsaha/"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="38" alt="LinkedIn" /></a>
+  <a href="https://x.com/Saptajit_Saha_"><img src="https://cdn.simpleicons.org/x/FFFFFF" height="38" alt="X" /></a>
+  <a href="mailto:sahasaptajit@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" height="38" alt="Email" /></a>
 </p>
 
 <p>
@@ -47,12 +47,9 @@
 
 ## `// things i care about`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Data%20Science-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Data Science" />
-  <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML" />
-  <img src="https://img.shields.io/badge/Useful%20Products-61DAFB?style=for-the-badge&logo=react&logoColor=111111" alt="Useful Products" />
-  <img src="https://img.shields.io/badge/Open%20Source-F1502F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,react,github&theme=dark" height="52" alt="Data Science, AI/ML, Useful Products, Open Source" />
+</div>
 
 ---
 
@@ -74,15 +71,12 @@
 
 **AI-powered community safety platform for incident reporting, safety signals and proactive personal safety.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=111111" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet" />
-  <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="OpenStreetMap" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React TypeScript Vite Express" />
+  <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="42" alt="Gemini" />
+  <img src="https://cdn.simpleicons.org/leaflet/199900" height="42" alt="Leaflet" />
+  <img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" height="42" alt="OpenStreetMap" />
+</div>
 
 </div>
 
@@ -102,29 +96,20 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Data / Analytics / ML
 
-<div>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111111" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white" alt="Looker Studio" />
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets" />
-</div>
+<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn&theme=dark" alt="Data tools" />
+
+<img src="https://cdn.simpleicons.org/powerbi/F2C811" height="48" alt="Power BI" />
+<img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
+<img src="https://cdn.simpleicons.org/looker/4285F4" height="48" alt="Looker Studio" />
+<img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" height="48" alt="Excel" />
+<img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" alt="Google Sheets" />
 
 ### Tools & Platforms
 
-<div>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-</div>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />
 
 </div>
+
 
 **Working with:** Python, SQL, C/C++, JavaScript, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Looker Studio, Excel, Google Sheets, Git/GitHub, Jupyter, VS Code and Google Cloud.
 
@@ -182,7 +167,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 | Deloitte Australia – Data Analytics Job Simulation | Forage |
 | Introduction to Internet of Things | IIT Bombay |
 | Remote Sensing Data Analytics for Crop Production Forecasting | IIRS / ISRO |
-| Amazon AWS Summit Certificate 2025 | AWS |
+| Amazon AWS Summit 2025 | AWS |
 | HP LIFE – Setting Prices | HP LIFE |
 | Introduction to Physical Computing | Lancaster University |
 | Python for Everybody Specialization | University of Michigan |
@@ -192,14 +177,16 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ## `07 / academic snapshot`
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/IIT%20Madras-B.S.%20Data%20Science%20%26%20Applications-FF6B00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/CGPA-8.17%2F10-FF6B00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/IIRS%20ISRO%20Quiz-88%25-FF6B00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Physical%20Computing%20%2F%20IoT-100%25-FF6B00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/SEBI%20Investor%20Awareness-98%25-FF6B00?style=for-the-badge" />
-
+  <img src="https://skillicons.dev/icons?i=iit,?&theme=dark" alt="" style="display:none" />
 </div>
+
+| | Achievement |
+|---|---|
+| 🎓 | IIT Madras — B.S. Data Science & Applications |
+| 📈 | CGPA — 8.17 / 10 |
+| 🛰️ | IIRS / ISRO Quiz — 88% |
+| 🧠 | Physical Computing / IoT — 100% |
+| 📊 | SEBI Investor Awareness — 98% |
 
 **2023:** Certificate of Appreciation for Outstanding Academic Performance after the Secondary Examination.
 
@@ -208,16 +195,14 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ## `08 / find me elsewhere`
 
 <div align="center">
-
-<a href="https://www.youtube.com/@ig.fr1cko"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-<a href="https://www.kaggle.com/saptajitsaha"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-<a href="https://leetcode.com/u/Saptajit_Saha/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-<a href="https://codeforces.com/profile/sahasaptajit"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-<a href="https://instagram.com/saptajit.py/"><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://medium.com/@sahasaptajit"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
-<a href="https://dev.to/saptajitsaha"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" /></a>
-<a href="https://discord.com/users/fricko_yt"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-
+  <a href="https://www.youtube.com/@ig.fr1cko"><img src="https://cdn.simpleicons.org/youtube/FF0000" height="40" alt="YouTube" /></a>
+  <a href="https://www.kaggle.com/saptajitsaha"><img src="https://cdn.simpleicons.org/kaggle/20BEFF" height="40" alt="Kaggle" /></a>
+  <a href="https://leetcode.com/u/Saptajit_Saha/"><img src="https://cdn.simpleicons.org/leetcode/FFA116" height="40" alt="LeetCode" /></a>
+  <a href="https://codeforces.com/profile/sahasaptajit"><img src="https://cdn.simpleicons.org/codeforces/1F8ACB" height="40" alt="Codeforces" /></a>
+  <a href="https://instagram.com/saptajit.py/"><img src="https://cdn.simpleicons.org/instagram/E1306C" height="40" alt="Instagram" /></a>
+  <a href="https://medium.com/@sahasaptajit"><img src="https://cdn.simpleicons.org/medium/FFFFFF" height="40" alt="Medium" /></a>
+  <a href="https://dev.to/saptajitsaha"><img src="https://cdn.simpleicons.org/devdotto/FFFFFF" height="40" alt="Dev.to" /></a>
+  <a href="https://discord.com/users/fricko_yt"><img src="https://cdn.simpleicons.org/discord/5865F2" height="40" alt="Discord" /></a>
 </div>
 
 ---
