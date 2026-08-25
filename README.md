@@ -157,13 +157,9 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ## `05 / currently vibing`
 
-<div align="center">
-
 <a href="https://open.spotify.com/user/31woaxwhxdzembeh5htuahpqz4x4">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31woaxwhxdzembeh5htuahpqz4x4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" width="300" />
 </a>
-
-</div>
 
 ---
 
