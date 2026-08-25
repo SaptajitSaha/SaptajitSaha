@@ -1,0 +1,56 @@
+name: Repair broken tech stack icons
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-broken-tech-icons.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Replace only broken icons
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path('README.md')
+          s = p.read_text(encoding='utf-8')
+
+          old_data = '  <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,powerbi,tableau,looker,excel,googlesheets&theme=dark" alt="Data analytics and ML tools" />'
+          new_data = '''  <img src="https://skillicons.dev/icons?i=pandas,numpy&theme=dark" alt="Pandas NumPy" />
+          <img src="https://api.iconify.design/logos:matplotlib.svg" height="48" alt="Matplotlib" />
+          <img src="https://api.iconify.design/logos:seaborn-icon.svg" height="48" alt="Seaborn" />
+          <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" height="48" alt="Power BI" />
+          <img src="https://api.iconify.design/logos:tableau.svg" height="48" alt="Tableau" />
+          <img src="https://skillicons.dev/icons?i=looker&theme=dark" alt="Looker Studio" />
+          <img src="https://api.iconify.design/vscode-icons:file-type-excel.svg" height="48" alt="Excel" />
+          <img src="https://skillicons.dev/icons?i=googlesheets&theme=dark" alt="Google Sheets" />'''
+
+          old_tools = '  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />'
+          new_tools = '''  <img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git GitHub" />
+          <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="48" alt="VS Code" />
+          <img src="https://skillicons.dev/icons?i=jupyter,gcp&theme=dark" alt="Jupyter Google Cloud" />'''
+
+          if old_data in s:
+              s = s.replace(old_data, new_data, 1)
+          if old_tools in s:
+              s = s.replace(old_tools, new_tools, 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Commit README if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "fix: replace only broken tech stack icons"
+          git push
