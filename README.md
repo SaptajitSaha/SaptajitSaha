@@ -65,7 +65,7 @@
 <div align="center">
 
 <a href="https://github.com/SaptajitSaha/Nidarr">
-  <img src="assets/nidarr-showcase.svg" alt="Nidarr — in-app screens presented in iPhone mockups" width="900" />
+  <img src="assets/nidarr-showcase.png" alt="Nidarr — exact project showcase image" width="1000" />
 </a>
 
 <br />
