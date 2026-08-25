@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190">
+  <rect width="760" height="190" rx="14" fill="#0D0D0D"/>
+  <rect x="1" y="1" width="758" height="188" rx="13" fill="none" stroke="#262626"/>
+  <g font-family="JetBrains Mono, monospace" font-size="15" font-weight="700">
+    <text x="24" y="38" fill="#F5F5F5">DATA SCIENCE</text>
+    <rect x="190" y="23" width="360" height="18" rx="5" fill="#242424"/>
+    <rect x="190" y="23" width="295" height="18" rx="5" fill="#FF3B30"/>
+
+    <text x="24" y="78" fill="#F5F5F5">AI / ML</text>
+    <rect x="190" y="63" width="360" height="18" rx="5" fill="#242424"/>
+    <rect x="190" y="63" width="262" height="18" rx="5" fill="#34C759"/>
+
+    <text x="24" y="118" fill="#F5F5F5">QUANT FINANCE</text>
+    <rect x="190" y="103" width="360" height="18" rx="5" fill="#242424"/>
+    <rect x="190" y="103" width="197" height="18" rx="5" fill="#007AFF"/>
+
+    <text x="24" y="158" fill="#F5F5F5">OPEN SOURCE</text>
+    <rect x="190" y="143" width="360" height="18" rx="5" fill="#242424"/>
+    <rect x="190" y="143" width="197" height="18" rx="5" fill="#FF2D55"/>
+  </g>
+  <text x="575" y="37" fill="#FF3B30" font-family="JetBrains Mono, monospace" font-size="14">R</text>
+  <text x="575" y="77" fill="#34C759" font-family="JetBrains Mono, monospace" font-size="14">G</text>
+  <text x="575" y="117" fill="#007AFF" font-family="JetBrains Mono, monospace" font-size="14">B</text>
+  <text x="575" y="157" fill="#FF2D55" font-family="JetBrains Mono, monospace" font-size="14">RGB</text>
+</svg>
