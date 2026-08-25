@@ -15,8 +15,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=850&color=FF6B00&center=true&vCenter=true&width=760&lines=Turning+data+into+useful+products.;Learning+ML+one+model+at+a+time.;Vibecoding+%2B+data+%2B+late-night+debugging.;Exploring+data+and+ML+with+curiosity.;Open+to+building+things+that+matter." alt="Typing animation" />
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=SaptajitSaha&style=for-the-badge&color=FF6B00" alt="Profile views" />
-
 </div>
 
 ---
@@ -64,7 +62,8 @@
 <br />
 
 <a href="https://github.com/SaptajitSaha/Nidarr">
-  <img src="https://img.shields.io/badge/Nidarr-Explore%20the%20project-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore Nidarr on GitHub" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="36" alt="Explore Nidarr on GitHub" />
+  <strong>Explore Nidarr</strong>
 </a>
 
 ### [Nidarr](https://github.com/SaptajitSaha/Nidarr)
@@ -72,7 +71,7 @@
 **AI-powered community safety platform for incident reporting, safety signals and proactive personal safety.**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React TypeScript Vite Express" />
+  <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React, TypeScript, Vite, Express" />
   <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="42" alt="Gemini" />
   <img src="https://cdn.simpleicons.org/leaflet/199900" height="42" alt="Leaflet" />
   <img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" height="42" alt="OpenStreetMap" />
@@ -96,7 +95,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Data / Analytics / ML
 
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn&theme=dark" alt="Data tools" />
+<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn&theme=dark" alt="Pandas, NumPy, Matplotlib, Seaborn" />
 
 <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="48" alt="Power BI" />
 <img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
@@ -106,10 +105,9 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Git, GitHub, VS Code, Jupyter, Google Cloud" />
 
 </div>
-
 
 **Working with:** Python, SQL, C/C++, JavaScript, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Looker Studio, Excel, Google Sheets, Git/GitHub, Jupyter, VS Code and Google Cloud.
 
@@ -122,7 +120,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaptajitSaha/SaptajitSaha/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaptajitSaha/SaptajitSaha/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/SaptajitSaha/SaptajitSaha/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/SaptajitSaha/SaptajitSaha/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -175,10 +173,6 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ---
 
 ## `07 / academic snapshot`
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=iit,?&theme=dark" alt="" style="display:none" />
-</div>
 
 | | Achievement |
 |---|---|
@@ -246,7 +240,7 @@ $ echo "Want to build something useful?"
 <div align="center">
 
 <a href="https://github.com/SaptajitSaha">
-  <img src="https://img.shields.io/github/followers/SaptajitSaha?label=Follow&style=for-the-badge&color=FF6B00" alt="GitHub followers" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="36" alt="GitHub" />
 </a>
 
 <br><br>
