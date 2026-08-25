@@ -41,7 +41,7 @@
 ### `focus.exe`
 
 <div align="center">
-  <img src="assets/focus-bars.svg" alt="RGB focus bars" width="760" />
+  <img src="assets/focus-bars.gif" alt="Animated gaming-style focus bars" width="760" />
 </div>
 
 > The bars are intentionally a vibe, not a fake skill-ranking system.
