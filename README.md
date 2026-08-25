@@ -76,7 +76,7 @@
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,typescript,vite,express&theme=dark" height="50" alt="React TypeScript Vite Express" />
-  <img src="https://skillicons.dev/icons?i=googlecloud&theme=dark" height="50" alt="Gemini and Google Cloud" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="42" alt="Gemini and Google Cloud" />
   <img src="https://cdn.simpleicons.org/leaflet/199900" height="42" alt="Leaflet" />
   <img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" height="42" alt="OpenStreetMap" />
 </div>
@@ -99,11 +99,27 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Data / Analytics / ML
 
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,powerbi,tableau,looker,excel,googlesheets&theme=dark" alt="Data analytics and ML tools" />
+<div align="center">
+  <img src="https://cdn.simpleicons.org/pandas/150458" height="50" alt="Pandas" />
+  <img src="https://cdn.simpleicons.org/numpy/013243" height="50" alt="NumPy" />
+  <img src="https://cdn.simpleicons.org/matplotlib/11557C" height="50" alt="Matplotlib" />
+  <img src="https://cdn.simpleicons.org/seaborn/43A19A" height="50" alt="Seaborn" />
+  <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="50" alt="Power BI" />
+  <img src="https://cdn.simpleicons.org/tableau/E97627" height="50" alt="Tableau" />
+  <img src="https://cdn.simpleicons.org/looker/4285F4" height="50" alt="Looker Studio" />
+  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" height="50" alt="Excel" />
+  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="50" alt="Google Sheets" />
+</div>
 
 ### Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />
+<div align="center">
+  <img src="https://cdn.simpleicons.org/git/F05032" height="50" alt="Git" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="50" alt="GitHub" />
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="50" alt="VS Code" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="50" alt="Google Cloud" />
+</div>
 
 </div>
 
@@ -150,7 +166,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 <div align="center">
 
 <a href="https://open.spotify.com/user/31woaxwhxdzembeh5htuahpqz4x4">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31woaxwhxdzembeh5htuahpqz4x4&cover_image=true&theme=default&show_offline=false&background_color=0D0D0D&interchange=false" alt="Spotify player" />
+  <img src="https://img.shields.io/badge/Spotify-Currently%20vibing-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Open Spotify profile" />
 </a>
 
 </div>
