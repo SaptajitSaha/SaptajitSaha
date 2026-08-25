@@ -99,20 +99,31 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Data / Analytics / ML
 
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn&theme=dark" alt="Data tools" />
-
-<img src="https://cdn.simpleicons.org/powerbi/F2C811" height="48" alt="Power BI" />
-<img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
-<img src="https://cdn.simpleicons.org/looker/4285F4" height="48" alt="Looker Studio" />
-<img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" height="48" alt="Excel" />
-<img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" alt="Google Sheets" />
+<div align="center">
+  <img src="https://cdn.simpleicons.org/pandas/150458" height="48" alt="Pandas" />
+  <img src="https://cdn.simpleicons.org/numpy/013243" height="48" alt="NumPy" />
+  <img src="https://cdn.simpleicons.org/matplotlib/11557C" height="48" alt="Matplotlib" />
+  <img src="https://cdn.simpleicons.org/seaborn/43A19A" height="48" alt="Seaborn" />
+  <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="48" alt="Power BI" />
+  <img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
+  <img src="https://cdn.simpleicons.org/looker/4285F4" height="48" alt="Looker Studio" />
+  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" height="48" alt="Excel" />
+  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" alt="Google Sheets" />
+</div>
 
 ### Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,gcp&theme=dark" alt="Tools and platforms" />
+<div align="center">
+  <img src="https://cdn.simpleicons.org/git/F05032" height="48" alt="Git" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="48" alt="GitHub" />
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="48" alt="VS Code" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="48" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="48" alt="Google Cloud" />
+</div>
 
 </div>
 
+<br />
 
 **Working with:** Python, SQL, C/C++, JavaScript, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Looker Studio, Excel, Google Sheets, Git/GitHub, Jupyter, VS Code and Google Cloud.
 
