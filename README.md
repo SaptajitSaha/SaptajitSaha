@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=850&color=FF6B00&center=true&vCenter=true&width=760&lines=Turning+data+into+useful+products.;Learning+ML+one+model+at+a+time.;Vibecoding+%2B+data+%2B+late-night+debugging.;Exploring+quant+finance+with+curiosity.;Open+to+building+things+that+matter." alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=850&color=FF6B00&center=true&vCenter=true&width=760&lines=Turning+data+into+useful+products.;Learning+ML+one+model+at+a+time.;Vibecoding+%2B+data+%2B+late-night+debugging.;Exploring+data+and+ML+with+curiosity.;Open+to+building+things+that+matter." alt="Typing animation" />
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=SaptajitSaha&style=for-the-badge&color=FF6B00" alt="Profile views" />
@@ -32,7 +32,7 @@
 │  ROLE       → 2nd Year @ IIT Madras                          │
 │  DEGREE     → BS in Data Science & Applications              │
 │  TARGET     → Data Scientist / ML Engineer                   │
-│  INTERESTS  → Data Science • AI/ML • Quant Finance           │
+│  INTERESTS  → Data Science • AI/ML           │
 │  BUILDING   → Useful products, not just demos                │
 │  OFFLINE    → Vibecoding • Running • Powerlifting            │
 │                                                              │
@@ -46,7 +46,7 @@
 ### `focus.exe`
 
 <div align="center">
-  <img src="assets/focus-bars.gif" alt="Animated gaming-style focus bars" width="760" />
+  <img src="assets/focus-bars-orange.gif" alt="Animated gaming-style focus bars" width="760" />
 </div>
 
 > The bars are intentionally a vibe, not a fake skill-ranking system.
@@ -59,7 +59,6 @@
   <img src="https://img.shields.io/badge/Data%20Science-FF6B00?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/AI%2FML-FF6B00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Useful%20Products-FF6B00?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Quant%20Finance-FF6B00?style=for-the-badge&logo=bitcoin&logoColor=white" />
   <img src="https://img.shields.io/badge/Open%20Source-FF6B00?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 </p>
 
