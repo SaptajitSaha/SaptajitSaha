@@ -65,7 +65,13 @@
 <div align="center">
 
 <a href="https://github.com/SaptajitSaha/Nidarr">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SaptajitSaha&repo=Nidarr&theme=dark&hide_border=true&title_color=FF6B00&icon_color=FF6B00&text_color=FFFFFF&bg_color=0D0D0D" alt="Nidarr repository card" />
+  <img src="assets/nidarr-showcase.jpg" alt="Nidarr — in-app screens presented in iPhone mockups" width="900" />
+</a>
+
+<br />
+
+<a href="https://github.com/SaptajitSaha/Nidarr">
+  <img src="https://img.shields.io/badge/Nidarr-Explore%20the%20project-FF6B00?style=for-the-badge&logo=github&logoColor=white" alt="Explore Nidarr on GitHub" />
 </a>
 
 ### [Nidarr](https://github.com/SaptajitSaha/Nidarr)
@@ -76,7 +82,8 @@
 
 </div>
 
-Nidarr is a **hackathon prototype**, not a production safety service. Its current implementation combines structured incident reporting, provisional Gemini analysis, user-confirmed locations, a safety map, and foreground-only journey check-ins. The project explicitly separates fictional demonstration signals, provisional AI analysis and unverified community submissions.  
+Nidarr is a **hackathon prototype**, not a production safety service. Its current implementation combines structured incident reporting, provisional Gemini analysis, user-confirmed locations, a safety map, and foreground-only journey check-ins. The project explicitly separates fictional demonstration signals, provisional AI analysis and unverified community submissions.
+
 [Read the repository →](https://github.com/SaptajitSaha/Nidarr)
 
 ---
