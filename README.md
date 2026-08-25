@@ -71,7 +71,7 @@
 <br />
 
 <a href="https://github.com/SaptajitSaha/Nidarr">
-  <img src="https://img.shields.io/badge/Nidarr-Explore%20the%20project-FF6B00?style=for-the-badge&logo=github&logoColor=white" alt="Explore Nidarr on GitHub" />
+  <img src="https://img.shields.io/badge/Nidarr-Explore%20the%20project-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore Nidarr on GitHub" />
 </a>
 
 ### [Nidarr](https://github.com/SaptajitSaha/Nidarr)
