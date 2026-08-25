@@ -32,7 +32,7 @@
 │  ROLE       → 2nd Year @ IIT Madras                          │
 │  DEGREE     → BS in Data Science & Applications              │
 │  TARGET     → Data Scientist / ML Engineer                   │
-│  INTERESTS  → Data Science • AI/ML           │
+│  INTERESTS  → Data Science • AI/ML                           │
 │  BUILDING   → Useful products, not just demos                │
 │  OFFLINE    → Vibecoding • Running • Powerlifting            │
 │                                                              │
