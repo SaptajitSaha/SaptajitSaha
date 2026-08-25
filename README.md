@@ -51,11 +51,11 @@
 ## `// things i care about`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Science-FF6B00?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%2FML-FF6B00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Useful%20Products-FF6B00?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Quant%20Finance-FF6B00?style=flat-square&logo=bitcoin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open%20Source-FF6B00?style=flat-square&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Science-FF6B00?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%2FML-FF6B00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Useful%20Products-FF6B00?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Quant%20Finance-FF6B00?style=for-the-badge&logo=bitcoin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open%20Source-FF6B00?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 </p>
 
 ---
