@@ -29,12 +29,12 @@
 │                                                              │
 │  SaptajitSaha                                                │
 │  ──────────────────────────────────────────────────────────  │
-│  ROLE       → 2nd Year @ IIT Madras                         │
-│  DEGREE     → BS in Data Science & Applications             │
-│  TARGET     → Data Scientist / ML Engineer                  │
-│  INTERESTS  → Data Science • AI/ML                          │
-│  BUILDING   → Useful products, not just demos               │
-│  OFFLINE    → Vibecoding • Running • Powerlifting           │
+│  ROLE       → 2nd Year @ IIT Madras                          │
+│  DEGREE     → BS in Data Science & Applications              │
+│  TARGET     → Data Scientist / ML Engineer                   │
+│  INTERESTS  → Data Science • AI/ML                           │
+│  BUILDING   → Useful products, not just demos                │
+│  OFFLINE    → Vibecoding • Running • Powerlifting            │
 │                                                              │
 │  status: learning                                            │
 │  mode:   building                                            │
@@ -98,29 +98,31 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Languages & Data
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
-</p>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
 
 ### Data / Analytics / ML
 
-<p>
+<div>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111111" alt="Power BI" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Looker Studio" />
+  <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white" alt="Looker Studio" />
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets" />
-</p>
+</div>
 
 ### Tools & Platforms
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,googlecloud&theme=dark" alt="Tools" />
-</p>
+<div>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+</div>
 
 </div>
 
