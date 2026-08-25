@@ -56,10 +56,10 @@
 ## `// things i care about`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Science-FF6B00?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%2FML-FF6B00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Useful%20Products-FF6B00?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open%20Source-FF6B00?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Science-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Data Science" />
+  <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML" />
+  <img src="https://img.shields.io/badge/Useful%20Products-61DAFB?style=for-the-badge&logo=react&logoColor=111111" alt="Useful Products" />
+  <img src="https://img.shields.io/badge/Open%20Source-F1502F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" />
 </p>
 
 ---
