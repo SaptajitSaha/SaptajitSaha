@@ -40,10 +40,9 @@
 
 ### `focus.exe`
 
-`DATA SCIENCE` ▓▓▓▓▓▓▓▓▓░░  
-`AI / ML`      ▓▓▓▓▓▓▓▓░░░░  
-`QUANT FINANCE`▓▓▓▓▓▓░░░░░░  
-`OPEN SOURCE`  ▓▓▓▓▓▓░░░░░░  
+<div align="center">
+  <img src="assets/focus-bars.svg" alt="RGB focus bars" width="760" />
+</div>
 
 > The bars are intentionally a vibe, not a fake skill-ranking system.
 
