@@ -93,7 +93,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <div align="center">
 
-### Languages & Data
+### Languages
 
 <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
 
