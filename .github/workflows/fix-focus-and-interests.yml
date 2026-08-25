@@ -1,0 +1,115 @@
+name: Fix Focus And Interests
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fix-focus-and-interests.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Pillow
+        run: python -m pip install --upgrade pip pillow
+
+      - name: Generate warm orange focus GIF
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageDraw, ImageFilter, ImageFont
+          from pathlib import Path
+
+          W, H = 760, 170
+          frames = 48
+          out = Path('assets/focus-bars-orange.gif')
+          labels = [('DATA SCIENCE', 295), ('AI / ML', 262), ('OPEN SOURCE', 197)]
+          y_positions = [28, 76, 124]
+          x0, track_w, bar_h = 190, 360, 18
+
+          stops = [
+              (224, 75, 10),
+              (255, 107, 0),
+              (255, 179, 71),
+          ]
+
+          def mix(a, b, t):
+              return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+
+          def warm(t):
+              t %= 1.0
+              if t <= 0.5:
+                  return mix(stops[0], stops[1], t / 0.5)
+              return mix(stops[1], stops[2], (t - 0.5) / 0.5)
+
+          def gradient(width, height, phase):
+              img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+              px = img.load()
+              for x in range(width):
+                  c = warm((x / max(1, width - 1) + phase) % 1.0)
+                  for y in range(height):
+                      edge = abs((y / max(1, height - 1)) - 0.5) * 2
+                      value = 0.84 + 0.16 * (1 - edge)
+                      px[x, y] = tuple(int(value * q) for q in c) + (255,)
+              mask = Image.new('L', (width, height), 0)
+              ImageDraw.Draw(mask).rounded_rectangle((0, 0, width - 1, height - 1), radius=6, fill=255)
+              img.putalpha(mask)
+              return img
+
+          try:
+              font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', 15)
+          except OSError:
+              font = ImageFont.load_default()
+
+          result = []
+          for frame in range(frames):
+              base = Image.new('RGBA', (W, H), (13, 13, 13, 255))
+              draw = ImageDraw.Draw(base)
+              draw.rounded_rectangle((1, 1, W - 2, H - 2), radius=13, outline=(38, 38, 38, 255), width=1)
+
+              for index, ((label, width), y) in enumerate(zip(labels, y_positions)):
+                  draw.text((24, y + 1), label, fill=(245, 245, 245, 255), font=font)
+                  draw.rounded_rectangle((x0, y, x0 + track_w, y + bar_h), radius=6, fill=(23, 23, 23, 255), outline=(43, 43, 43, 255))
+
+                  phase = (frame / frames) * (1.0 if index % 2 == 0 else -1.0) + index * 0.13
+                  grad = gradient(width, bar_h, phase)
+                  layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+                  layer.alpha_composite(grad, (x0, y))
+                  base.alpha_composite(layer.filter(ImageFilter.GaussianBlur(5)))
+                  base.alpha_composite(layer)
+
+                  shine = Image.new('RGBA', (width, bar_h), (0, 0, 0, 0))
+                  sd = ImageDraw.Draw(shine)
+                  sd.rounded_rectangle((2, 2, width - 3, 5), radius=2, fill=(255, 247, 238, 58))
+                  base.alpha_composite(shine, (x0, y))
+
+              result.append(base.convert('P', palette=Image.Palette.ADAPTIVE))
+
+          result[0].save(out, save_all=True, append_images=result[1:], duration=75, loop=0, optimize=False, disposal=2)
+          PY
+
+      - name: Update README
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('assets/focus-bars.gif', 'assets/focus-bars-orange.gif')
+          s = s.replace('Exploring+quant+finance+with+curiosity.;', 'Exploring+data+and+ML+with+curiosity.;')
+          s = s.replace('INTERESTS  → Data Science • AI/ML • Quant Finance', 'INTERESTS  → Data Science • AI/ML')
+          s = s.replace('  <img src="https://img.shields.io/badge/Quant%20Finance-FF6B00?style=for-the-badge&logo=bitcoin&logoColor=white" />\n', '')
+          p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/focus-bars-orange.gif
+          git diff --cached --quiet || git commit -m "style: use warm orange focus animation and remove quant finance"
+          git push
