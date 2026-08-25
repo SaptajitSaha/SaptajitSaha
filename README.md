@@ -6,9 +6,9 @@
 
 <p>
   <a href="https://saptajitsaha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/saptajitsaha/"><img src="https://img.shields.io/badge/LinkedIn-FF6B00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/Saptajit_Saha_"><img src="https://img.shields.io/badge/X-FF6B00?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-  <a href="mailto:sahasaptajit@gmail.com"><img src="https://img.shields.io/badge/Email-FF6B00?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/saptajitsaha/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/Saptajit_Saha_"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="mailto:sahasaptajit@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p>
@@ -194,14 +194,14 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <div align="center">
 
-<a href="https://www.youtube.com/@ig.fr1cko"><img src="https://img.shields.io/badge/YouTube-FF6B00?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-<a href="https://www.kaggle.com/saptajitsaha"><img src="https://img.shields.io/badge/Kaggle-FF6B00?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-<a href="https://leetcode.com/u/Saptajit_Saha/"><img src="https://img.shields.io/badge/LeetCode-FF6B00?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-<a href="https://codeforces.com/profile/sahasaptajit"><img src="https://img.shields.io/badge/Codeforces-FF6B00?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-<a href="https://instagram.com/saptajit.py/"><img src="https://img.shields.io/badge/Instagram-FF6B00?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://medium.com/@sahasaptajit"><img src="https://img.shields.io/badge/Medium-FF6B00?style=for-the-badge&logo=medium&logoColor=white" /></a>
-<a href="https://dev.to/saptajitsaha"><img src="https://img.shields.io/badge/Dev.to-FF6B00?style=for-the-badge&logo=devdotto&logoColor=white" /></a>
-<a href="https://discord.com/users/fricko_yt"><img src="https://img.shields.io/badge/Discord-fricko__yt-FF6B00?style=for-the-badge&logo=discord&logoColor=white" /></a>
+<a href="https://www.youtube.com/@ig.fr1cko"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+<a href="https://www.kaggle.com/saptajitsaha"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+<a href="https://leetcode.com/u/Saptajit_Saha/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+<a href="https://codeforces.com/profile/sahasaptajit"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+<a href="https://instagram.com/saptajit.py/"><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="https://medium.com/@sahasaptajit"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
+<a href="https://dev.to/saptajitsaha"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" /></a>
+<a href="https://discord.com/users/fricko_yt"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
 
 </div>
 
