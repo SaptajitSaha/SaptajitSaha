@@ -1,0 +1,123 @@
+name: Generate GitHub telemetry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate telemetry SVGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          from pathlib import Path
+
+          user = "SaptajitSaha"
+          out = Path("assets")
+          out.mkdir(parents=True, exist_ok=True)
+          token = os.environ["GH_TOKEN"]
+
+          def gh(path):
+              req = urllib.request.Request(
+                  f"https://api.github.com{path}",
+                  headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+              )
+              with urllib.request.urlopen(req) as r:
+                  return json.load(r)
+
+          u = gh(f"/users/{user}")
+          repos = gh(f"/users/{user}/repos?per_page=100&sort=updated")
+
+          langs = {}
+          total_stars = 0
+          forks = 0
+          for repo in repos:
+              total_stars += repo.get("stargazers_count", 0)
+              forks += repo.get("forks_count", 0)
+              try:
+                  data = gh(f"/repos/{user}/{repo['name']}/languages")
+                  for k, v in data.items():
+                      langs[k] = langs.get(k, 0) + v
+              except Exception:
+                  pass
+
+          colors = {
+              "Python":"#FF6B00", "JavaScript":"#F7DF1E", "TypeScript":"#3178C6",
+              "C++":"#00599C", "C":"#A8B9CC", "HTML":"#E34F26", "CSS":"#1572B6",
+              "Java":"#ED8B00", "Jupyter Notebook":"#F37626", "Shell":"#89E051"
+          }
+
+          def esc(s):
+              return s.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
+
+          def card(title, body, w=820, h=250):
+              return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+                <rect width="100%" height="100%" rx="18" fill="#0D0D0D"/>
+                <rect x="1" y="1" width="{w-2}" height="{h-2}" rx="17" fill="none" stroke="#2A2A2A"/>
+                <text x="28" y="46" fill="#FF6B00" font-family="JetBrains Mono, monospace" font-size="24" font-weight="700">{esc(title)}</text>
+                {body}
+              </svg>'''
+
+          stats = card("github telemetry", f'''<g fill="#FFF" font-family="JetBrains Mono, monospace">
+              <text x="28" y="96" font-size="16" fill="#9A9A9A">PUBLIC REPOS</text><text x="28" y="128" font-size="28" font-weight="700">{u.get('public_repos',0)}</text>
+              <text x="220" y="96" font-size="16" fill="#9A9A9A">FOLLOWERS</text><text x="220" y="128" font-size="28" font-weight="700">{u.get('followers',0)}</text>
+              <text x="410" y="96" font-size="16" fill="#9A9A9A">STARS</text><text x="410" y="128" font-size="28" font-weight="700">{total_stars}</text>
+              <text x="590" y="96" font-size="16" fill="#9A9A9A">FORKS</text><text x="590" y="128" font-size="28" font-weight="700">{forks}</text>
+              <text x="28" y="180" font-size="14" fill="#6F6F6F">Generated from GitHub API • updated daily</text>
+              <text x="28" y="215" font-size="14" fill="#FF6B00">$ whoami → {esc(user)}</text>
+          </g>''')
+          (out/"github-stats.svg").write_text(stats)
+
+          total = sum(langs.values()) or 1
+          top = sorted(langs.items(), key=lambda x: x[1], reverse=True)[:6]
+          y = 88
+          rows = []
+          for name, value in top:
+              pct = value / total * 100
+              rows.append(f'''<rect x="28" y="{y+10}" width="{max(6, int(700*pct/100))}" height="12" rx="6" fill="{colors.get(name,'#FF6B00')}"/>
+                <text x="28" y="{y-2}" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">{esc(name)}</text>
+                <text x="700" y="{y-2}" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">{pct:.1f}%</text>''')
+              y += 38
+          langs_svg = card("top languages", "".join(rows), h=330)
+          (out/"top-languages.svg").write_text(langs_svg)
+
+          streak = card("contribution streak", '''<g font-family="JetBrains Mono, monospace">
+              <text x="28" y="98" fill="#9A9A9A" font-size="15">CURRENT STREAK</text>
+              <text x="28" y="134" fill="#FFF" font-size="30" font-weight="700">LIVE IN THE GRAPH</text>
+              <text x="28" y="182" fill="#9A9A9A" font-size="14">The public REST API does not expose streak totals.</text>
+              <text x="28" y="212" fill="#FF6B00" font-size="14">Scroll to contribution.exe for the live activity view.</text>
+          </g>''')
+          (out/"github-streak.svg").write_text(streak)
+
+          achievements = card("github achievements", f'''<g font-family="JetBrains Mono, monospace">
+              <text x="28" y="100" fill="#9A9A9A" font-size="15">PUBLIC REPOSITORIES</text>
+              <text x="28" y="135" fill="#FFF" font-size="28" font-weight="700">{u.get('public_repos',0)}</text>
+              <text x="220" y="100" fill="#9A9A9A" font-size="15">FOLLOWERS</text>
+              <text x="220" y="135" fill="#FFF" font-size="28" font-weight="700">{u.get('followers',0)}</text>
+              <text x="410" y="100" fill="#9A9A9A" font-size="15">FOLLOWING</text>
+              <text x="410" y="135" fill="#FFF" font-size="28" font-weight="700">{u.get('following',0)}</text>
+              <text x="590" y="100" fill="#9A9A9A" font-size="15">PUBLIC GISTS</text>
+              <text x="590" y="135" fill="#FFF" font-size="28" font-weight="700">{u.get('public_gists',0)}</text>
+              <text x="28" y="190" fill="#FF6B00" font-size="14">Generated from your own profile workflow.</text>
+          </g>''')
+          (out/"github-achievements.svg").write_text(achievements)
+          PY
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --cached --quiet || git commit -m "chore: refresh GitHub telemetry"
+          git push
