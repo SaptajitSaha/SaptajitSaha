@@ -118,11 +118,11 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ### Tools & Platforms
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/git/F05032" height="50" width="50" alt="Git" />
-  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="50" width="50" alt="GitHub" />
-  <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="50" width="50" alt="VS Code" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" width="50" alt="Jupyter" />
-  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="50" width="50" alt="Google Cloud" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="40" width="40" alt="Git" />
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="40" width="40" alt="GitHub" />
+  <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="40" width="40" alt="VS Code" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="40" width="40" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="40" width="40" alt="Google Cloud" />
 </div>
 
 </div>
