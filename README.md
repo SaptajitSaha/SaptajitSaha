@@ -177,6 +177,11 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 Last updated: Thursday, August 27th, 2026, 12:00:00 PM
 <!--RECENT_ACTIVITY:last_update_end-->
 
+### WakaTime coding stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 </div>
 
 ---
