@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6b00,50:ff8833,100:ffb347&height=180&section=header&text=SAPTAJIT%20SAHA&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=DATA%20SCIENCE%20%E2%80%A2%20AI%2FML&descAlignY=58&descSize=16&animation=twinkling" width="100%" alt="Animated orange header" />
+
 # <img src="https://media.giphy.com/media/hvRJCLFzcasr4ia7z/giphy.gif" width="30px"> Saptajit Saha
 
 ### `Data Scientist / ML Engineer in the making`
