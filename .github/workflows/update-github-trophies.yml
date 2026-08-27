@@ -2,6 +2,9 @@ name: Update GitHub Trophies
 
 on:
   workflow_dispatch:
+  push:
+    paths-ignore:
+      - "assets/github-trophies.svg"
   schedule:
     - cron: "17 0 * * 0"
 
