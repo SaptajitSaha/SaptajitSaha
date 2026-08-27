@@ -3,7 +3,7 @@ name: Generate contribution snake
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0 * * *'
+    - cron: '*/15 * * * *'
 
 permissions:
   contents: write
@@ -22,3 +22,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Publish generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: dist
+          build_dir_include: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_DIR: dist
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
