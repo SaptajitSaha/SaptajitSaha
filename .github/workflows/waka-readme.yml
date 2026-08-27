@@ -1,0 +1,22 @@
+name: WakaTime Coding Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update WakaTime stats
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update README with WakaTime stats
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SECTION_NAME: waka
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 8
