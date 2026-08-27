@@ -12,6 +12,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -22,15 +25,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish generated SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          build_dir_include: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg
-          jekyll: false
+      - name: Publish snake to output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BUILD_DIR: dist
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cp dist/github-contribution-grid-snake.svg /tmp/github-contribution-grid-snake.svg
+          cp dist/github-contribution-grid-snake-dark.svg /tmp/github-contribution-grid-snake-dark.svg
+
+          git fetch origin output
+          git checkout output
+
+          cp /tmp/github-contribution-grid-snake.svg .
+          cp /tmp/github-contribution-grid-snake-dark.svg .
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "Snake is already up to date."
+          else
+            git commit -m "chore: update contribution snake"
+            git push "https://x-access-token:$GITHUB_TOKEN@github.com/SaptajitSaha/SaptajitSaha.git" output
+          fi
