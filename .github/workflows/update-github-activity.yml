@@ -1,12 +1,8 @@
 name: Update GitHub Activity Feed
 
 on:
-  push:
-    paths:
-      - ".github/workflows/update-github-activity.yml"
-      - ".github/recent-activity.config.yml"
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
