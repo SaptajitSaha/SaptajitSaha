@@ -153,7 +153,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <br /><br />
 
-<img src="assets/github-trophies.svg" alt="GitHub trophies" width="720" />
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=SaptajitSaha&theme=onedark&no-bg=true&column=6&margin-w=10&margin-h=10" alt="GitHub trophies" width="720" />
 
 </div>
 
