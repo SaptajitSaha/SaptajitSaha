@@ -203,14 +203,6 @@ No activity tracked
 
 ---
 
-## `05 / currently vibing`
-
-<a href="https://open.spotify.com/user/31woaxwhxdzembeh5htuahpqz4x4">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31woaxwhxdzembeh5htuahpqz4x4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" width="300" />
-</a>
-
----
-
 ## `06 / certifications`
 
 | Certification / Credential | Issuer |
@@ -257,41 +249,6 @@ No activity tracked
 
 ---
 
-## `09 / a little more human`
-
-```text
-RUNNING       ██████████████████░░
-VIBECODING    ███████████████████░
-POWERLIFTING  ████████████████░░░░
-
-status: learning
-mode: building
-coffee: probably
-bugs: definitely
-```
-
-<div align="center">
-
-<a href="https://mynickname.com/id1846535"><img src="https://mynickname.com/forumt4/saptajitsaha.gif" alt="nickname counter" /></a>
-
-</div>
-
----
-
-## `10 / contact`
-
-```bash
-$ echo "Want to build something useful?"
-> sahasaptajit@gmail.com
-```
-
-<div align="center">
-
-### `while(alive) { learn(); build(); repeat(); }`
-
-</div>
-
----
 
 <div align="center">
 
@@ -302,5 +259,17 @@ $ echo "Want to build something useful?"
 <br><br>
 
 `Built with curiosity. Powered by orange.` 🟧
+
+</div>
+
+---
+
+<div align="center">
+
+## `currently vibing`
+
+<a href="https://open.spotify.com/user/31woaxwhxdzembeh5htuahpqz4x4">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31woaxwhxdzembeh5htuahpqz4x4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" width="300" />
+</a>
 
 </div>
