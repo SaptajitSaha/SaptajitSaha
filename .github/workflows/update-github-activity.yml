@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - ".github/workflows/update-github-activity.yml"
+      - ".github/recent-activity.config.yml"
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
