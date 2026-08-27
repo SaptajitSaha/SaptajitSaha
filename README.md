@@ -256,8 +256,6 @@ No activity tracked
   <img src="https://img.shields.io/github/followers/SaptajitSaha?label=Follow&style=for-the-badge&color=FF6B00" alt="GitHub followers" />
 </a>
 
-<br><br>
-
 `Built with curiosity. Powered by orange.` 🟧
 
 </div>
