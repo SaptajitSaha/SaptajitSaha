@@ -21,3 +21,15 @@ jobs:
             github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish snake files
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: .
+          build_dir_include: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_DIR: .
