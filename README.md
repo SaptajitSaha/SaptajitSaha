@@ -162,6 +162,13 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <img src="assets/github-trophies.svg" alt="GitHub trophies" width="720" />
 
+### Recent activity
+
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+
+<!--RECENT_ACTIVITY:last_update-->
+
 </div>
 
 ---
