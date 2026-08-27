@@ -148,7 +148,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ### streak.pet
 
 <a href="https://nomlings.cc/badge/SaptajitSaha">
-  <img src="https://nomlings.cc/badge/SaptajitSaha?pet=byteling&scale=6&color=%23ff8833" alt="GitHub contribution pet" />
+  <img src="https://nomlings.cc/badge/SaptajitSaha?pet=byteling&scale=9&color=%23ff8833" alt="GitHub contribution pet" />
 </a>
 
 </div>
