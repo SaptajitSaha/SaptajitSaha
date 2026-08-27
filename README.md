@@ -128,6 +128,16 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ---
 
+## `03 / 3D contribution graph`
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution graph" width="900" />
+
+</div>
+
+<br />
+
 ## `03 / contribution.exe`
 
 <div align="center">
