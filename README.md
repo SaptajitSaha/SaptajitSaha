@@ -3,12 +3,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6b00,50:ff8833,100:ffb347&height=180&section=header&text=SAPTAJIT%20SAHA&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=%60Data%20Scientist%20%2F%20ML%20Engineer%20in%20the%20making%60&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="Animated orange header" />
 
 
-<p>
   <a href="https://saptajitsaha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/saptajitsaha/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://x.com/Saptajit_Saha_"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="mailto:sahasaptajit@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
 
 <p>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=850&color=FF6B00&center=true&vCenter=true&width=760&lines=Turning+data+into+useful+products.;Learning+ML+one+model+at+a+time.;Vibecoding+%2B+data+%2B+late-night+debugging.;Exploring+data+and+ML+with+curiosity.;Open+to+building+things+that+matter." alt="Typing animation" />
