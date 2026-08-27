@@ -187,11 +187,7 @@ No activity tracked
 
 <!--END_SECTION:waka-->
 
-### 3D contribution graph
 
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution graph" width="900" />
-</p>
 
 </div>
 
