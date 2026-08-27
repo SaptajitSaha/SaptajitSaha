@@ -180,6 +180,11 @@ Last updated: Thursday, August 27th, 2026, 12:00:00 PM
 ### WakaTime coding stats
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 </div>
