@@ -2,9 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6b00,50:ff8833,100:ffb347&height=180&section=header&text=SAPTAJIT%20SAHA&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=%60Data%20Scientist%20%2F%20ML%20Engineer%20in%20the%20making%60&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="Animated orange header" />
 
-# <img src="https://media.giphy.com/media/hvRJCLFzcasr4ia7z/giphy.gif" width="30px"> Saptajit Saha
-
-### `Data Scientist / ML Engineer in the making`
 
 <p>
   <a href="https://saptajitsaha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
