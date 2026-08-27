@@ -151,6 +151,10 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <img src="assets/top-languages.svg" alt="Top languages" width="720" />
 
+<br /><br />
+
+<img src="https://github-profile-trophy.vercel.app/?username=SaptajitSaha&theme=onedark&no-bg=true&column=6&margin-w=10&margin-h=10" alt="GitHub trophies" width="720" />
+
 </div>
 
 ---
