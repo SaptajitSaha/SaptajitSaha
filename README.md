@@ -192,9 +192,10 @@ Last updated: Sunday, August 30th, 2026, 6:50:18 AM
 <!--START_SECTION:waka-->
 
 ```txt
-Other      23 mins               ████████████▓░░░░░░░░░░░░   50.61 %
-Markdown   16 mins               █████████░░░░░░░░░░░░░░░░   35.81 %
-Python     6 mins                ███▒░░░░░░░░░░░░░░░░░░░░░   13.58 %
+Python     1 hr 24 mins          ████████████████████▓░░░░   83.28 %
+Markdown   8 mins                ██░░░░░░░░░░░░░░░░░░░░░░░   08.30 %
+JSON       8 mins                ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 %
+Git        0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 %
 ```
 
 <!--END_SECTION:waka-->
