@@ -2,15 +2,15 @@
       <rect width="100%" height="100%" rx="18" fill="#0D0D0D"/>
       <rect x="1" y="1" width="818" height="328" rx="17" fill="none" stroke="#2A2A2A"/>
       <text x="28" y="46" fill="#FF6B00" font-family="JetBrains Mono, monospace" font-size="24" font-weight="700">top languages</text>
-      <rect x="28" y="98" width="307" height="12" rx="6" fill="#3178C6"/>
+      <rect x="28" y="98" width="306" height="12" rx="6" fill="#3178C6"/>
       <text x="28" y="86" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">TypeScript</text>
-      <text x="700" y="86" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">43.9%</text><rect x="28" y="136" width="234" height="12" rx="6" fill="#FF6B00"/>
+      <text x="700" y="86" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">43.9%</text><rect x="28" y="136" width="233" height="12" rx="6" fill="#FF6B00"/>
       <text x="28" y="124" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">Python</text>
-      <text x="700" y="124" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">33.5%</text><rect x="28" y="174" width="53" height="12" rx="6" fill="#FF6B00"/>
-      <text x="28" y="162" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">Rust</text>
-      <text x="700" y="162" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">7.6%</text><rect x="28" y="212" width="51" height="12" rx="6" fill="#1572B6"/>
-      <text x="28" y="200" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">CSS</text>
-      <text x="700" y="200" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">7.4%</text><rect x="28" y="250" width="32" height="12" rx="6" fill="#F7DF1E"/>
+      <text x="700" y="124" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">33.3%</text><rect x="28" y="174" width="54" height="12" rx="6" fill="#1572B6"/>
+      <text x="28" y="162" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">CSS</text>
+      <text x="700" y="162" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">7.7%</text><rect x="28" y="212" width="52" height="12" rx="6" fill="#FF6B00"/>
+      <text x="28" y="200" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">Rust</text>
+      <text x="700" y="200" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">7.5%</text><rect x="28" y="250" width="31" height="12" rx="6" fill="#F7DF1E"/>
       <text x="28" y="238" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">JavaScript</text>
       <text x="700" y="238" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">4.6%</text><rect x="28" y="288" width="17" height="12" rx="6" fill="#E34F26"/>
       <text x="28" y="276" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">HTML</text>
