@@ -94,33 +94,72 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <div align="center">
 
-### Languages
+### Programming
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts&theme=dark" alt="Python C++ C JavaScript TypeScript" />
 
-### Data / Analytics / ML
+<p>
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
+
+### Machine Learning
+
+<div align="center">
+  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="50" width="50" alt="scikit-learn" />
+  <img src="https://cdn.simpleicons.org/xgboost/FF0000" height="50" width="50" alt="XGBoost" />
+</div>
+
+<p>
+  Supervised Learning · Classification · Feature Engineering · Data Preprocessing · Model Evaluation · Cross-Validation · Statistical Learning
+</p>
+
+### Deep Learning / Computer Vision / GenAI
+
+<div align="center">
+  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="50" width="50" alt="PyTorch" />
+  <img src="https://cdn.simpleicons.org/opencv/5C3EE8" height="50" width="50" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/MediaPipe-4285F4?style=for-the-badge&logo=google&logoColor=white" height="28" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/YOLO-111111?style=for-the-badge&logo=yolo&logoColor=white" height="28" alt="YOLO" />
+  <img src="https://img.shields.io/badge/Google%20Gemini%20API-8E75B2?style=for-the-badge&logo=google&logoColor=white" height="28" alt="Google Gemini API" />
+</div>
+
+<p>
+  Neural Networks · Deep Learning · Computer Vision · Generative AI · Large Language Models
+</p>
+
+### Data / Scientific Computing
 
 <div align="center">
   <img src="https://cdn.simpleicons.org/pandas/150458" height="50" width="50" alt="Pandas" />
   <img src="https://cdn.simpleicons.org/numpy/013243" height="50" width="50" alt="NumPy" />
   <img src="https://api.iconify.design/logos:matplotlib.svg" height="50" width="110" alt="Matplotlib" />
   <img src="https://api.iconify.design/logos:seaborn-icon.svg" height="50" width="50" alt="Seaborn" />
-  <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" height="50" width="50" alt="Power BI" />
-  <img src="https://api.iconify.design/logos:tableau.svg" height="40" width="150" alt="Tableau" />
-  <img src="https://cdn.simpleicons.org/looker/4285F4" height="50" width="50" alt="Looker Studio" />
-  <img src="https://api.iconify.design/vscode-icons:file-type-excel.svg" height="50" width="50" alt="Excel" />
-  <img src="https://cdn.simpleicons.org/googlesheets/34A853" height="50" width="50" alt="Google Sheets" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" width="50" alt="Jupyter Notebook" />
+  <img src="https://cdn.simpleicons.org/googlecolab/F9AB00" height="50" width="50" alt="Google Colab" />
 </div>
 
-### Tools & Platforms
+### ML Engineering / Cloud
 
 <div align="center">
   <img src="https://cdn.simpleicons.org/git/F05032" height="43" width="43" alt="Git" />
   <img src="https://cdn.simpleicons.org/github/FFFFFF" height="43" width="43" alt="GitHub" />
-  <img src="https://api.iconify.design/logos:visual-studio-code.svg" height="43" width="43" alt="VS Code" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="43" width="43" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/docker/2496ED" height="43" width="43" alt="Docker" />
   <img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="43" width="43" alt="Google Cloud" />
 </div>
+
+<p>
+  REST APIs · CI/CD · Cloud Run · pytest · Playwright
+</p>
+
+### Frameworks / Development Tools
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,vite&theme=dark" height="43" alt="React Node.js Express Vite" />
+</div>
+
+<p>
+  Streamlit · PySide6 · VS Code
+</p>
 
 </div>
 
