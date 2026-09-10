@@ -231,10 +231,8 @@ Last updated: Thursday, September 10th, 2026, 7:01:28 AM
 <!--START_SECTION:waka-->
 
 ```txt
-Other      6 hrs 51 mins         ███████████████▓░░░░░░░░░   62.55 %
-Python     3 hrs 56 mins         █████████░░░░░░░░░░░░░░░░   35.90 %
-YAML       7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.07 %
-Markdown   3 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
+Other    6 hrs 51 mins         ████████████████████████░   95.76 %
+Python   18 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.24 %
 ```
 
 <!--END_SECTION:waka-->
