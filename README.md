@@ -96,9 +96,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Programming
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts&theme=dark" alt="Python C++ C JavaScript TypeScript" />
-
-<p>SQL</p>
+<img src="https://skillicons.dev/icons?i=python,cpp,rust,js,ts,kotlin&theme=dark" alt="Python C++ Rust JavaScript TypeScript Kotlin" />
 
 ### ML / AI
 
@@ -111,8 +109,7 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <p>XGBoost · MediaPipe · YOLO · Deep Learning · Generative AI · Large Language Models</p>
 
-### Data / Engineering
-
+<p><strong>Data / Engineering</strong></p>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,googlecolab&theme=dark" height="46" alt="Pandas NumPy Matplotlib Seaborn Jupyter Google Colab" />
 </div>
