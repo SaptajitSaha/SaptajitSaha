@@ -102,15 +102,26 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### ML / AI
 
-<img src="https://skillicons.dev/icons?i=sklearn,pytorch,opencv&theme=dark" alt="scikit-learn PyTorch OpenCV" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=sklearn,pytorch,opencv&theme=dark" height="48" alt="scikit-learn PyTorch OpenCV" />
+  <img src="https://cdn.simpleicons.org/claude" height="48" width="48" alt="Claude" />
+  <img src="https://asvg.app/assets/svg/codex/codex-symbol-color.svg" height="48" width="48" alt="Codex" />
+  <img src="https://cdn.simpleicons.org/googlegemini" height="48" width="48" alt="Google Gemini" />
+</div>
 
-<p>XGBoost · MediaPipe · YOLO · Gemini API · Deep Learning · Generative AI · Large Language Models</p>
+<p>XGBoost · MediaPipe · YOLO · Deep Learning · Generative AI · Large Language Models</p>
 
 ### Data / Engineering
 
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,git,github,docker,gcp,react,nodejs,express,vite,streamlit,vscode&theme=dark" alt="Pandas NumPy Matplotlib Seaborn Jupyter Git GitHub Docker Google Cloud React Node.js Express Vite Streamlit VS Code" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,googlecolab&theme=dark" height="46" alt="Pandas NumPy Matplotlib Seaborn Jupyter Google Colab" />
+</div>
 
-<p>REST APIs · CI/CD · Cloud Run · pytest · Playwright · PySide6</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,gcp,react,nodejs,vscode&theme=dark" height="46" alt="Git GitHub Docker Google Cloud React Node.js VS Code" />
+</div>
+
+<p>Express · Vite · Streamlit · PySide6 · REST APIs · CI/CD · Cloud Run · pytest · Playwright</p>
 
 </div>
 
