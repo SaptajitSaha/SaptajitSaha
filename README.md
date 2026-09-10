@@ -96,7 +96,10 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 ### Programming
 
+<div align="center">
 <img src="https://skillicons.dev/icons?i=python,cpp,rust,js,ts,kotlin&theme=dark" alt="Python C++ Rust JavaScript TypeScript Kotlin" />
+<p>Python · C++ · Rust · JavaScript · TypeScript · Kotlin</p>
+</div>
 
 ### ML / AI
 
