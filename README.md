@@ -112,8 +112,6 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 ### Data / Engineering
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,googlecolab&theme=dark" height="46" alt="Pandas NumPy Matplotlib Seaborn Jupyter Google Colab" />
-<br />
 <img src="https://skillicons.dev/icons?i=git,github,docker,gcp,react,nodejs,vscode&theme=dark" height="46" alt="Git GitHub Docker Google Cloud React Node.js VS Code" />
 </div>
 
