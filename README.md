@@ -109,13 +109,12 @@ Nidarr is a **hackathon prototype**, not a production safety service. Its curren
 
 <p>XGBoost · MediaPipe · YOLO · Deep Learning · Generative AI · Large Language Models</p>
 
-<p><strong>Data / Engineering</strong></p>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,googlecolab&theme=dark" height="46" alt="Pandas NumPy Matplotlib Seaborn Jupyter Google Colab" />
-</div>
+### Data / Engineering
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,gcp,react,nodejs,vscode&theme=dark" height="46" alt="Git GitHub Docker Google Cloud React Node.js VS Code" />
+<img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,jupyter,googlecolab&theme=dark" height="46" alt="Pandas NumPy Matplotlib Seaborn Jupyter Google Colab" />
+<br />
+<img src="https://skillicons.dev/icons?i=git,github,docker,gcp,react,nodejs,vscode&theme=dark" height="46" alt="Git GitHub Docker Google Cloud React Node.js VS Code" />
 </div>
 
 <p>Express · Vite · Streamlit · PySide6 · REST APIs · CI/CD · Cloud Run · pytest · Playwright</p>
