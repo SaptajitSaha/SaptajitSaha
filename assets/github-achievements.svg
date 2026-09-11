@@ -6,9 +6,9 @@
     <text x="28" y="100" fill="#9A9A9A" font-size="15">PUBLIC REPOSITORIES</text>
     <text x="28" y="135" fill="#FFF" font-size="28" font-weight="700">10</text>
     <text x="220" y="100" fill="#9A9A9A" font-size="15">FOLLOWERS</text>
-    <text x="220" y="135" fill="#FFF" font-size="28" font-weight="700">0</text>
+    <text x="220" y="135" fill="#FFF" font-size="28" font-weight="700">1</text>
     <text x="410" y="100" fill="#9A9A9A" font-size="15">FOLLOWING</text>
-    <text x="410" y="135" fill="#FFF" font-size="28" font-weight="700">3</text>
+    <text x="410" y="135" fill="#FFF" font-size="28" font-weight="700">4</text>
     <text x="590" y="100" fill="#9A9A9A" font-size="15">PUBLIC GISTS</text>
     <text x="590" y="135" fill="#FFF" font-size="28" font-weight="700">0</text>
     <text x="28" y="190" fill="#FF6B00" font-size="14">Generated from your own profile workflow.</text>
