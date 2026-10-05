@@ -190,14 +190,14 @@ Last updated: Monday, October 5th, 2026, 5:51:31 AM
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript     20 hrs 24 mins        ███████████▒░░░░░░░░░░░░░   45.33 %
-Markdown       4 hrs 38 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.30 %
-Image (png)    2 hrs 53 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.42 %
-JSON           2 hrs 28 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.49 %
-JavaScript     2 hrs 13 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.93 %
-PowerShell     2 hrs 11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.88 %
-Other          2 hrs 9 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
-CSS            2 hrs 4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 %
+TypeScript     20 hrs 24 mins        ████████████▓░░░░░░░░░░░░   50.66 %
+Markdown       3 hrs 16 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.14 %
+Image (png)    2 hrs 48 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.99 %
+CSS            2 hrs 4 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.16 %
+PowerShell     2 hrs 1 min           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.03 %
+Other          1 hr 58 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.91 %
+JSON           1 hr 57 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.84 %
+JavaScript     54 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.27 %
 ```
 
 <!--END_SECTION:waka-->
