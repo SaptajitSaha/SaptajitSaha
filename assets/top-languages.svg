@@ -12,7 +12,7 @@
       <text x="28" y="200" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">Rust</text>
       <text x="700" y="200" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">4.4%</text><rect x="28" y="250" width="19" height="12" rx="6" fill="#F7DF1E"/>
       <text x="28" y="238" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">JavaScript</text>
-      <text x="700" y="238" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">2.7%</text><rect x="28" y="288" width="12" height="12" rx="6" fill="#E34F26"/>
+      <text x="700" y="238" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">2.7%</text><rect x="28" y="288" width="11" height="12" rx="6" fill="#E34F26"/>
       <text x="28" y="276" fill="#FFF" font-family="JetBrains Mono, monospace" font-size="15">HTML</text>
       <text x="700" y="276" fill="#FF6B00" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15">1.7%</text>
     </svg>
